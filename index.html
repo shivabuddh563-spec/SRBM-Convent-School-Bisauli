@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRBM Convent School, Bisauli | English Medium Convent Institution</title>
+    <meta name="description" content="SRBM Convent School, SH-43, Chandausi-Badaun Road, Bisauli, Uttar Pradesh 243720. Nurturing Academic Excellence, Moral Discipline & Holistic Growth. Admissions Open 2026-27.">
+
+    <!-- Google Fonts: Cormorant Garamond / Playfair Display & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emeraldbrand: {
+                            950: '#052118',
+                            900: '#0b3b2c',
+                            800: '#11513d',
+                            700: '#186b51',
+                            600: '#218767',
+                        },
+                        gold: {
+                            200: '#faecc0',
+                            300: '#f3d678',
+                            400: '#e5bf4b',
+                            500: '#d4a23c',
+                            600: '#b38324',
+                        },
+                        ivory: '#FAF9F5'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            display: inline-flex;
+            white-space: nowrap;
+            animation: marquee 30s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+        .convent-hero-bg {
+            background-color: #0b3b2c;
+            background-image:
+                radial-gradient(circle at 85% 20%, rgba(212, 162, 60, 0.18) 0%, transparent 45%),
+                radial-gradient(circle at 15% 80%, rgba(33, 135, 103, 0.28) 0%, transparent 50%),
+                linear-gradient(135deg, #052118 0%, #0b3b2c 55%, #11513d 100%);
+        }
+        .subtle-grid {
+            background-image: radial-gradient(rgba(212, 162, 60, 0.14) 1px, transparent 1px);
+            background-size: 26px 26px;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-ivory antialiased selection:bg-gold-500 selection:text-emeraldbrand-950 overflow-x-hidden">
+
+    <!-- Top Heritage Info Bar -->
+    <div class="bg-emeraldbrand-950 text-slate-200 text-xs sm:text-sm border-b border-emeraldbrand-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3 sm:gap-5">
+                <a href="tel:+919627202070" class="flex items-center gap-1.5 hover:text-gold-400 transition font-medium">
+                    <i data-lucide="phone" class="w-3.5 h-3.5 text-gold-400"></i>
+                    <span>096272 02070</span>
+                </a>
+                <span class="hidden md:inline text-emeraldbrand-700">|</span>
+                <span class="flex items-center gap-1.5 text-slate-300">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-gold-400 shrink-0"></i>
+                    <span>SH-43, Chandausi–Badaun Road, Bisauli, U.P. 243720</span>
+                </span>
+            </div>
+            <div class="flex items-center gap-2 text-gold-300 font-medium">
+                <i data-lucide="clock" class="w-3.5 h-3.5 text-gold-400"></i>
+                <span>Mon – Sat: 8:00 AM – 2:30 PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Notice Board Ticker -->
+    <div class="bg-gold-500 text-emeraldbrand-950 font-medium text-xs sm:text-sm py-2 overflow-hidden shadow-inner">
+        <div class="max-w-7xl mx-auto px-4 flex items-center">
+            <button onclick="document.getElementById('notice-calendar').scrollIntoView({behavior:'smooth'})" class="bg-emeraldbrand-950 text-gold-400 font-bold uppercase tracking-wider text-[10px] sm:text-xs px-2.5 py-1 rounded mr-3 shrink-0 flex items-center gap-1.5 hover:bg-emeraldbrand-900 transition">
+                <span class="w-2 h-2 rounded-full bg-gold-400 animate-ping"></span> Notice
+            </button>
+            <div class="overflow-hidden relative w-full">
+                <div class="animate-marquee gap-12">
+                    <span>🎓 <strong>Admissions Open for Session 2026–27</strong> (Nursery to Senior Classes) — Prospectus Available at SH-43 Campus Office!</span>
+                    <span>🚌 Dedicated GPS School Bus Routes Covering Chandausi–Badaun Highway, Bisauli Town &amp; Surrounding Villages.</span>
+                    <span>🏅 Annual Academic Merit Scholarship &amp; Inter-House Debate Fest Registrations Open.</span>
+                    <span>🎓 <strong>Admissions Open for Session 2026–27</strong> (Nursery to Senior Classes) — Prospectus Available at SH-43 Campus Office!</span>
+                    <span>🚌 Dedicated GPS School Bus Routes Covering Chandausi–Badaun Highway, Bisauli Town &amp; Surrounding Villages.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Glassmorphism Navigation Header -->
+    <header class="sticky top-0 z-40 bg-ivory/90 backdrop-blur-md border-b border-emeraldbrand-900/10 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Custom SVG School Emblem / Crest -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 shrink-0 transition-transform duration-300 group-hover:scale-105">
+                        <svg viewBox="0 0 120 120" class="w-full h-full drop-shadow" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Outer Laurel & Gold Ring -->
+                            <circle cx="60" cy="60" r="56" fill="#052118" stroke="#d4a23c" stroke-width="3.5"/>
+                            <circle cx="60" cy="60" r="49" fill="none" stroke="#f3d678" stroke-width="1" stroke-dasharray="3 2"/>
+                            <!-- Inner Heraldic Shield -->
+                            <path d="M60 18 L92 30 V57 C92 79 78 93 60 101 C42 93 28 79 28 57 V30 L60 18 Z" fill="#0b3b2c" stroke="#d4a23c" stroke-width="2.5"/>
+                            <!-- Radiant Rising Sun -->
+                            <circle cx="60" cy="44" r="9" fill="#f3d678"/>
+                            <g stroke="#f3d678" stroke-width="1.8" stroke-linecap="round">
+                                <line x1="60" y1="27" x2="60" y2="31"/>
+                                <line x1="47" y1="33" x2="50" y2="36"/>
+                                <line x1="73" y1="33" x2="70" y2="36"/>
+                                <line x1="43" y1="44" x2="47" y2="44"/>
+                                <line x1="77" y1="44" x2="73" y2="44"/>
+                            </g>
+                            <!-- Open Book of Knowledge -->
+                            <path d="M38 62 C45 59 54 60 60 65 C66 60 75 59 82 62 V77 C75 74 66 75 60 80 C54 75 45 74 38 77 Z" fill="#FAF9F5" stroke="#d4a23c" stroke-width="1.5"/>
+                            <line x1="60" y1="65" x2="60" y2="80" stroke="#0b3b2c" stroke-width="1.6"/>
+                            <!-- Monogram & Motto -->
+                            <text x="60" y="56" font-family="serif" font-size="8.5" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1.2">SRBM</text>
+                            <text x="60" y="91" font-family="sans-serif" font-size="6.2" font-weight="bold" fill="#f3d678" text-anchor="middle" letter-spacing="0.8">TRUTH &amp; EXCELLENCE</text>
+                        </svg>
+                    </div>
+                    <div>
+                        <span class="block font-serif text-xl sm:text-2xl font-extrabold text-emeraldbrand-950 tracking-tight leading-none">
+                            SRBM CONVENT SCHOOL
+                        </span>
+                        <span class="block text-[10px] sm:text-xs font-semibold uppercase tracking-[0.18em] text-gold-600 mt-1">
+                            Bisauli • English Medium Institution
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Links -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-emeraldbrand-950">
+                    <a href="#about" class="hover:text-gold-600 transition">About</a>
+                    <a href="#notice-calendar" class="hover:text-gold-600 transition">Notices</a>
+                    <a href="#academics" class="hover:text-gold-600 transition">Academics</a>
+                    <a href="#facilities" class="hover:text-gold-600 transition">Facilities</a>
+                    <a href="#fee-calculator" class="hover:text-gold-600 transition">Fee &amp; Admission</a>
+                    <a href="#contact" class="hover:text-gold-600 transition">Contact</a>
+                </nav>
+
+                <!-- Apply Online CTA -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <button onclick="openAdmissionModal()" class="bg-emeraldbrand-900 hover:bg-emeraldbrand-800 text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-md hover:shadow-lg transition flex items-center gap-2 border border-gold-500/40">
+                        <span>Apply Online</span>
+                        <i data-lucide="arrow-up-right" class="w-4 h-4 text-gold-400"></i>
+                    </button>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button id="mobile-menu-btn" aria-label="Open Navigation Menu" class="lg:hidden p-2.5 rounded-xl text-emeraldbrand-950 hover:bg-emeraldbrand-900/5 transition">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+            <a href="#about" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-emeraldbrand-950 hover:bg-emeraldbrand-900/5">About SRBM Convent</a>
+            <a href="#notice-calendar" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-emeraldbrand-950 hover:bg-emeraldbrand-900/5">Notice Board &amp; Calendar</a>
+            <a href="#academics" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-emeraldbrand-950 hover:bg-emeraldbrand-900/5">Academic Wings</a>
+            <a href="#facilities" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-emeraldbrand-950 hover:bg-emeraldbrand-900/5">Campus Facilities</a>
+            <a href="#fee-calculator" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-emeraldbrand-950 hover:bg-emeraldbrand-900/5">Fee &amp; Admission Enquiry</a>
+            <a href="#contact" class="mobile-link block px-3 py-2.5 rounded-lg font-medium text-emeraldbrand-950 hover:bg-emeraldbrand-900/5">SH-43 Campus Contact</a>
+            <div class="pt-3 grid grid-cols-2 gap-3">
+                <button onclick="openAdmissionModal()" class="w-full bg-emeraldbrand-900 text-white font-semibold py-3 rounded-xl text-sm shadow">
+                    Apply Online
+                </button>
+                <a href="tel:+919627202070" class="w-full bg-gold-500 text-emeraldbrand-950 font-bold py-3 rounded-xl text-sm text-center shadow flex items-center justify-center gap-1.5">
+                    <i data-lucide="phone-call" class="w-4 h-4"></i> Call Office
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative convent-hero-bg text-white overflow-hidden">
+        <div class="absolute inset-0 subtle-grid opacity-50 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 lg:py-24 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+
+                <!-- Left Hero Narrative -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emeraldbrand-950/80 border border-gold-500/40 text-gold-300 text-xs sm:text-sm font-semibold tracking-wide">
+                        <i data-lucide="sparkles" class="w-4 h-4 text-gold-400"></i>
+                        <span>Admissions Open 2026–27 • SH-43 Highway Campus, Bisauli</span>
+                    </div>
+
+                    <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">
+                        Inspiring Excellence Through <span class="text-gold-400 italic">Knowledge, Character</span> &amp; Discipline
+                    </h1>
+
+                    <p class="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Located on <strong>SH-43, Chandausi–Badaun Road, Bisauli</strong>, <strong>SRBM Convent School</strong> delivers a distinguished English-medium education combining modern smart-class pedagogy, moral values, and holistic student development.
+                    </p>
+
+                    <!-- Primary Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <button onclick="openAdmissionModal()" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-gold-500 hover:bg-gold-400 text-emeraldbrand-950 font-bold text-base shadow-lg shadow-black/25 transition transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                            <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                            <span>Apply Online for 2026–27</span>
+                        </button>
+                        <a href="https://wa.me/919627202070?text=Hello%20SRBM%20Convent%20School%20Bisauli%2C%20I%20would%20like%20to%20enquire%20about%20admissions%20and%20school%20visit." target="_blank" rel="noopener" class="w-full sm:w-auto px-7 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white border border-gold-400/40 font-semibold text-base transition flex items-center justify-center gap-2">
+                            <i data-lucide="message-circle" class="w-5 h-5 text-emerald-300"></i>
+                            <span>WhatsApp Admission Desk</span>
+                        </a>
+                    </div>
+
+                    <!-- 4 Key Highlights Pill Strip -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-emeraldbrand-800/80">
+                        <div class="bg-emeraldbrand-950/60 border border-gold-500/20 rounded-2xl p-3.5 text-left">
+                            <i data-lucide="book-open-check" class="w-5 h-5 text-gold-400 mb-1.5"></i>
+                            <p class="font-bold text-sm text-white">English Medium</p>
+                            <p class="text-[11px] text-slate-300">Fluent Spoken Focus</p>
+                        </div>
+                        <div class="bg-emeraldbrand-950/60 border border-gold-500/20 rounded-2xl p-3.5 text-left">
+                            <i data-lucide="landmark" class="w-5 h-5 text-gold-400 mb-1.5"></i>
+                            <p class="font-bold text-sm text-white">SH-43 Campus</p>
+                            <p class="text-[11px] text-slate-300">Prime Highway Access</p>
+                        </div>
+                        <div class="bg-emeraldbrand-950/60 border border-gold-500/20 rounded-2xl p-3.5 text-left">
+                            <i data-lucide="bus" class="w-5 h-5 text-gold-400 mb-1.5"></i>
+                            <p class="font-bold text-sm text-white">Safe Transport</p>
+                            <p class="text-[11px] text-slate-300">GPS Bus Fleet</p>
+                        </div>
+                        <div class="bg-emeraldbrand-950/60 border border-gold-500/20 rounded-2xl p-3.5 text-left">
+                            <i data-lucide="award" class="w-5 h-5 text-gold-400 mb-1.5"></i>
+                            <p class="font-bold text-sm text-white">Holistic Growth</p>
+                            <p class="text-[11px] text-slate-300">Labs, Sports &amp; Values</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Interactive Campus Preview Card (Custom SVG Illustration + Interactive View Switcher) -->
+                <div class="lg:col-span-5">
+                    <div class="rounded-3xl overflow-hidden shadow-2xl border-2 border-gold-500/50 bg-emeraldbrand-950">
+                        <!-- Custom SVG Architectural Campus Illustration -->
+                        <div id="campus-preview-visual" class="relative p-4 sm:p-5 bg-gradient-to-b from-emeraldbrand-900 to-emeraldbrand-950">
+                            <svg viewBox="0 0 520 310" class="w-full h-auto rounded-2xl border border-gold-500/30 shadow-inner" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#072b20"/>
+                                        <stop offset="60%" stop-color="#13543f"/>
+                                        <stop offset="100%" stop-color="#1f7559"/>
+                                    </linearGradient>
+                                    <linearGradient id="goldSun" x1="0" y1="0" x2="1" y2="1">
+                                        <stop offset="0%" stop-color="#f3d678"/>
+                                        <stop offset="100%" stop-color="#d4a23c"/>
+                                    </linearGradient>
+                                </defs>
+                                <!-- Sky Background -->
+                                <rect width="520" height="310" fill="url(#skyGrad)"/>
+                                <!-- Ambient Sun Glow -->
+                                <circle cx="430" cy="65" r="36" fill="url(#goldSun)" opacity="0.22"/>
+                                <circle cx="430" cy="65" r="20" fill="url(#goldSun)" opacity="0.85"/>
+
+                                <!-- Distant Greenery -->
+                                <path d="M0 215 Q130 185 260 210 T520 200 V310 H0 Z" fill="#093326"/>
+
+                                <!-- Main Convent Academic Building -->
+                                <!-- Left Wing -->
+                                <rect x="65" y="130" width="110" height="90" rx="3" fill="#FAF9F5" stroke="#d4a23c" stroke-width="1.5"/>
+                                <rect x="65" y="124" width="110" height="8" fill="#0b3b2c"/>
+                                <!-- Right Wing -->
+                                <rect x="345" y="130" width="110" height="90" rx="3" fill="#FAF9F5" stroke="#d4a23c" stroke-width="1.5"/>
+                                <rect x="345" y="124" width="110" height="8" fill="#0b3b2c"/>
+
+                                <!-- Central Heritage Block -->
+                                <rect x="170" y="102" width="180" height="118" rx="4" fill="#ffffff" stroke="#d4a23c" stroke-width="2"/>
+                                <!-- Pediment Roof -->
+                                <polygon points="162,102 260,64 358,102" fill="#0b3b2c" stroke="#d4a23c" stroke-width="2"/>
+                                <!-- Clock / Crest Emblem on Pediment -->
+                                <circle cx="260" cy="87" r="10" fill="#d4a23c"/>
+                                <circle cx="260" cy="87" r="7" fill="#052118"/>
+
+                                <!-- School Name Banner on Facade -->
+                                <rect x="188" y="109" width="144" height="16" rx="3" fill="#0b3b2c"/>
+                                <text x="260" y="120" font-family="serif" font-size="8.5" font-weight="bold" fill="#f3d678" text-anchor="middle" letter-spacing="1">SRBM CONVENT SCHOOL</text>
+
+                                <!-- Windows Grid -->
+                                <g fill="#186b51" opacity="0.85">
+                                    <rect x="82" y="142" width="18" height="22" rx="2"/>
+                                    <rect x="112" y="142" width="18" height="22" rx="2"/>
+                                    <rect x="142" y="142" width="18" height="22" rx="2"/>
+                                    <rect x="82" y="176" width="18" height="22" rx="2"/>
+                                    <rect x="112" y="176" width="18" height="22" rx="2"/>
+                                    <rect x="142" y="176" width="18" height="22" rx="2"/>
+
+                                    <rect x="360" y="142" width="18" height="22" rx="2"/>
+                                    <rect x="390" y="142" width="18" height="22" rx="2"/>
+                                    <rect x="420" y="142" width="18" height="22" rx="2"/>
+                                    <rect x="360" y="176" width="18" height="22" rx="2"/>
+                                    <rect x="390" y="176" width="18" height="22" rx="2"/>
+                                    <rect x="420" y="176" width="18" height="22" rx="2"/>
+
+                                    <rect x="192" y="135" width="22" height="25" rx="2"/>
+                                    <rect x="306" y="135" width="22" height="25" rx="2"/>
+                                </g>
+
+                                <!-- Grand Entrance Arch & Pillars -->
+                                <rect x="228" y="135" width="64" height="85" fill="#f1efe7"/>
+                                <rect x="232" y="135" width="6" height="85" fill="#d4a23c"/>
+                                <rect x="282" y="135" width="6" height="85" fill="#d4a23c"/>
+                                <path d="M244 220 V178 A16 16 0 0 1 276 178 V220 Z" fill="#0b3b2c"/>
+
+                                <!-- Lush Campus Lawn & Pathway -->
+                                <rect x="0" y="220" width="520" height="90" fill="#11513d"/>
+                                <polygon points="235,220 285,220 325,310 195,310" fill="#e5e0d3"/>
+
+                                <!-- Yellow School Bus on Left Driveway -->
+                                <g transform="translate(26, 212)">
+                                    <rect x="0" y="6" width="76" height="26" rx="5" fill="#f5b82e" stroke="#052118" stroke-width="1.5"/>
+                                    <rect x="8" y="11" width="12" height="9" rx="1.5" fill="#0b3b2c"/>
+                                    <rect x="24" y="11" width="12" height="9" rx="1.5" fill="#0b3b2c"/>
+                                    <rect x="40" y="11" width="12" height="9" rx="1.5" fill="#0b3b2c"/>
+                                    <rect x="56" y="11" width="14" height="9" rx="1.5" fill="#0b3b2c"/>
+                                    <circle cx="18" cy="33" r="6" fill="#052118"/>
+                                    <circle cx="18" cy="33" r="2.5" fill="#d4a23c"/>
+                                    <circle cx="58" cy="33" r="6" fill="#052118"/>
+                                    <circle cx="58" cy="33" r="2.5" fill="#d4a23c"/>
+                                </g>
+
+                                <!-- Caption Ribbon -->
+                                <rect x="115" y="274" width="290" height="24" rx="12" fill="#052118" opacity="0.92" stroke="#d4a23c" stroke-width="1"/>
+                                <text x="260" y="289" font-family="sans-serif" font-size="9.5" font-weight="bold" fill="#f3d678" text-anchor="middle">SH-43, CHANDAUSI–BADAUN ROAD, BISAULI</text>
+                            </svg>
+
+                            <!-- Interactive Preview Highlights Switcher -->
+                            <div class="mt-4 bg-white text-emeraldbrand-950 rounded-2xl p-4 sm:p-5 shadow-lg border border-gold-400/50">
+                                <div class="flex items-center justify-between gap-2 mb-3">
+                                    <span class="text-[11px] font-bold uppercase tracking-wider text-emeraldbrand-700">Interactive Campus Snapshot</span>
+                                    <div class="flex gap-1.5" id="hero-snapshot-pills">
+                                        <button data-snap="0" class="snap-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-emeraldbrand-900 text-gold-400">Campus</button>
+                                        <button data-snap="1" class="snap-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Timings</button>
+                                        <button data-snap="2" class="snap-btn px-2.5 py-1 rounded-lg text-[11px] font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200">Admissions</button>
+                                    </div>
+                                </div>
+                                <div id="hero-snapshot-content">
+                                    <h3 class="font-serif text-lg font-bold text-emeraldbrand-950">Prime SH-43 Highway Campus</h3>
+                                    <p class="text-xs text-slate-600 mt-1">Spacious, pollution-free academic complex on Chandausi–Badaun Road with CCTV security &amp; lush sports grounds.</p>
+                                </div>
+                                <div class="mt-3.5 pt-3 border-t border-slate-200 flex items-center justify-between text-xs font-semibold">
+                                    <span class="text-emeraldbrand-700 flex items-center gap-1.5">
+                                        <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Office Open: 8:00 AM – 2:30 PM
+                                    </span>
+                                    <a href="tel:+919627202070" class="text-emeraldbrand-950 underline hover:text-gold-600">096272 02070 →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About SRBM Convent Section -->
+    <section id="about" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Institutional Heritage Card -->
+                <div class="lg:col-span-5">
+                    <div class="rounded-3xl bg-emeraldbrand-900 text-white p-8 sm:p-10 shadow-xl border-2 border-gold-500/40 relative overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-gold-500/10 pointer-events-none"></div>
+                        <span class="inline-block px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs font-bold uppercase tracking-wider mb-4">
+                            Our Educational Philosophy
+                        </span>
+                        <h3 class="font-serif text-2xl sm:text-3xl font-bold leading-snug text-white">
+                            "Rooted in Discipline, Guided by Wisdom, Built for Tomorrow."
+                        </h3>
+                        <p class="text-slate-200 text-sm mt-4 leading-relaxed">
+                            At SRBM Convent School, we believe true education shapes both intellect and integrity. Every student is mentored to speak English with confidence, think analytically, and uphold respect and empathy.
+                        </p>
+                        <div class="mt-6 pt-6 border-t border-emeraldbrand-800 grid grid-cols-2 gap-4">
+                            <div>
+                                <p class="font-serif text-2xl font-bold text-gold-400">100%</p>
+                                <p class="text-xs text-slate-300">English Medium Campus</p>
+                            </div>
+                            <div>
+                                <p class="font-serif text-2xl font-bold text-gold-400">Mon–Sat</p>
+                                <p class="text-xs text-slate-300">8:00 AM – 2:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Institutional Overview -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 text-gold-600 font-bold text-xs uppercase tracking-widest">
+                        <span class="w-8 h-0.5 bg-gold-500"></span>
+                        <span>About SRBM Convent School</span>
+                    </div>
+
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-emeraldbrand-950 leading-tight">
+                        A Trusted Name in Quality Convent Education on Chandausi–Badaun Road
+                    </h2>
+
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Strategically situated on <strong>SH-43, Chandausi–Badaun Road, Bisauli</strong>, SRBM Convent School provides families across Bisauli and neighboring towns with a structured, nurturing, and high-standard English-medium learning environment.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-4 pt-2">
+                        <div class="p-4 rounded-2xl bg-ivory border border-slate-200/90 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="languages" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-emeraldbrand-950 text-sm">Spoken English &amp; Oratory</h4>
+                                <p class="text-xs text-slate-600 mt-1">Daily English communication, morning assemblies, debates, and reading habits.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-ivory border border-slate-200/90 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="shield-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-emeraldbrand-950 text-sm">Convent Moral Values</h4>
+                                <p class="text-xs text-slate-600 mt-1">Emphasis on punctuality, neatness, respect for elders, and civic responsibility.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-ivory border border-slate-200/90 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="user-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-emeraldbrand-950 text-sm">Dedicated Experienced Faculty</h4>
+                                <p class="text-xs text-slate-600 mt-1">Trained educators providing individual attention and regular parent-teacher feedback.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-ivory border border-slate-200/90 flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 text-gold-400 flex items-center justify-center shrink-0">
+                                <i data-lucide="trophy" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-emeraldbrand-950 text-sm">Co-Curricular Excellence</h4>
+                                <p class="text-xs text-slate-600 mt-1">Sports, yoga, art &amp; craft, science exhibitions, and cultural celebrations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Interactive Notice Board & Academic Calendar -->
+    <section id="notice-calendar" class="py-16 sm:py-20 bg-ivory border-y border-slate-200/90">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
+                <div>
+                    <span class="text-gold-600 font-bold text-xs uppercase tracking-widest">Campus Updates &amp; Schedule</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-emeraldbrand-950 mt-2">Notice Board &amp; Academic Calendar</h2>
+                </div>
+                <div class="flex gap-2" id="notice-filter-btns">
+                    <button data-filter="all" class="notice-filter active px-4 py-2 rounded-xl text-xs font-bold bg-emeraldbrand-900 text-gold-400 transition">All Updates</button>
+                    <button data-filter="admission" class="notice-filter px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-700 border border-slate-200 hover:border-emeraldbrand-900 transition">Admissions</button>
+                    <button data-filter="event" class="notice-filter px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-700 border border-slate-200 hover:border-emeraldbrand-900 transition">Events &amp; Exams</button>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8">
+                <!-- Interactive Notices List -->
+                <div class="lg:col-span-7 space-y-4" id="notices-list">
+                    <div data-category="admission" class="notice-item bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-gold-500 transition flex items-start justify-between gap-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-emeraldbrand-900 text-gold-400 flex flex-col items-center justify-center shrink-0 font-bold">
+                                <span class="text-xs leading-none">2026</span>
+                                <span class="text-[10px] text-white mt-0.5">OPEN</span>
+                            </div>
+                            <div>
+                                <span class="inline-block px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-bold uppercase">Admission Notice</span>
+                                <h3 class="font-bold text-emeraldbrand-950 text-base mt-1">New Session Registrations Open (Nursery to Senior Wing)</h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">Registration forms and school prospectus are available at the SH-43 Campus Office between 8:00 AM and 2:30 PM.</p>
+                            </div>
+                        </div>
+                        <button onclick="openAdmissionModal()" class="shrink-0 text-xs font-bold text-emeraldbrand-800 hover:text-gold-600 underline">Apply →</button>
+                    </div>
+
+                    <div data-category="event" class="notice-item bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-gold-500 transition flex items-start justify-between gap-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-gold-500/20 text-emeraldbrand-950 flex flex-col items-center justify-center shrink-0 font-bold border border-gold-500/40">
+                                <span class="text-sm leading-none">28</span>
+                                <span class="text-[10px] uppercase mt-0.5">NOV</span>
+                            </div>
+                            <div>
+                                <span class="inline-block px-2 py-0.5 rounded bg-amber-100 text-amber-800 text-[10px] font-bold uppercase">Parent Connect</span>
+                                <h3 class="font-bold text-emeraldbrand-950 text-base mt-1">Parent-Teacher Academic Review &amp; Open House</h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">Parents are invited to review mid-term progress portfolios and interact with class teachers from 9:00 AM to 1:00 PM.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-category="admission" class="notice-item bg-white p-5 rounded-2xl border border-slate-200 shadow-sm hover:border-gold-500 transition flex items-start justify-between gap-4">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 rounded-xl bg-emeraldbrand-900/10 text-emeraldbrand-900 flex flex-col items-center justify-center shrink-0 font-bold">
+                                <i data-lucide="bus" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <span class="inline-block px-2 py-0.5 rounded bg-sky-100 text-sky-800 text-[10px] font-bold uppercase">Transport Update</span>
+                                <h3 class="font-bold text-emeraldbrand-950 text-base mt-1">Expanded Bus Coverage on Chandausi–Badaun Highway</h3>
+                                <p class="text-xs sm:text-sm text-slate-600 mt-1">Additional GPS-enabled bus stops added for Bisauli town colonies and nearby villages along SH-43.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Calendar Highlights Card -->
+                <div class="lg:col-span-5 bg-emeraldbrand-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-gold-500/30">
+                    <div class="flex items-center justify-between border-b border-emeraldbrand-800 pb-4 mb-5">
+                        <div class="flex items-center gap-2.5">
+                            <i data-lucide="calendar-days" class="w-5 h-5 text-gold-400"></i>
+                            <h3 class="font-serif text-xl font-bold">Academic Calendar</h3>
+                        </div>
+                        <span class="text-xs font-semibold text-gold-300 bg-emeraldbrand-900 px-3 py-1 rounded-full">2026–27</span>
+                    </div>
+
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-center justify-between pb-3 border-b border-emeraldbrand-900">
+                            <div>
+                                <p class="font-bold text-white">Winter Assessment &amp; Practicals</p>
+                                <p class="text-xs text-slate-400">All Academic Wings</p>
+                            </div>
+                            <span class="text-xs font-bold text-gold-400 bg-emeraldbrand-900 px-2.5 py-1 rounded-lg">December</span>
+                        </div>
+                        <div class="flex items-center justify-between pb-3 border-b border-emeraldbrand-900">
+                            <div>
+                                <p class="font-bold text-white">Annual Sports &amp; Cultural Day</p>
+                                <p class="text-xs text-slate-400">SH-43 Campus Ground</p>
+                            </div>
+                            <span class="text-xs font-bold text-gold-400 bg-emeraldbrand-900 px-2.5 py-1 rounded-lg">January</span>
+                        </div>
+                        <div class="flex items-center justify-between pb-3 border-b border-emeraldbrand-900">
+                            <div>
+                                <p class="font-bold text-white">New Admission Entrance &amp; Interaction</p>
+                                <p class="text-xs text-slate-400">Session 2026–27 Intake</p>
+                            </div>
+                            <span class="text-xs font-bold text-gold-400 bg-emeraldbrand-900 px-2.5 py-1 rounded-lg">Feb – Mar</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="font-bold text-white">New Academic Session Commences</p>
+                                <p class="text-xs text-slate-400">8:00 AM – 2:30 PM Regular Schedule</p>
+                            </div>
+                            <span class="text-xs font-bold text-gold-400 bg-emeraldbrand-900 px-2.5 py-1 rounded-lg">April</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Wings Tabs Section -->
+    <section id="academics" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-gold-600 font-bold text-xs uppercase tracking-widest">Structured Curriculum</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-emeraldbrand-950 mt-2">Academic Wings &amp; Pedagogy</h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    Select an academic wing below to explore our age-appropriate teaching methodology, core subjects, and skill milestones.
+                </p>
+            </div>
+
+            <!-- Interactive Wing Selector Tabs -->
+            <div class="flex flex-wrap justify-center gap-2.5 sm:gap-4 mb-10" id="wing-tabs">
+                <button data-wing="preprimary" class="wing-tab active px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-emeraldbrand-900 text-gold-400 shadow-md transition">
+                    Pre-Primary (Nursery – UKG)
+                </button>
+                <button data-wing="primary" class="wing-tab px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-ivory text-emeraldbrand-950 border border-slate-200 hover:border-emeraldbrand-900 transition">
+                    Primary Wing (Classes I – V)
+                </button>
+                <button data-wing="middle" class="wing-tab px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-ivory text-emeraldbrand-950 border border-slate-200 hover:border-emeraldbrand-900 transition">
+                    Middle Wing (Classes VI – VIII)
+                </button>
+                <button data-wing="senior" class="wing-tab px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-ivory text-emeraldbrand-950 border border-slate-200 hover:border-emeraldbrand-900 transition">
+                    Senior Wing (Classes IX – XII)
+                </button>
+            </div>
+
+            <!-- Wing Detail Panel -->
+            <div class="bg-ivory rounded-3xl p-6 sm:p-10 border border-slate-200 shadow-lg max-w-5xl mx-auto" id="wing-panel">
+                <div class="grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <span id="wing-badge" class="inline-block px-3 py-1 rounded-full bg-gold-500/20 text-emeraldbrand-950 text-xs font-bold uppercase tracking-wider">
+                            Early Childhood Foundation • Age 3+
+                        </span>
+                        <h3 id="wing-title" class="font-serif text-2xl sm:text-3xl font-bold text-emeraldbrand-950">
+                            Pre-Primary Wing (Nursery, LKG &amp; UKG)
+                        </h3>
+                        <p id="wing-desc" class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Our Pre-Primary wing nurtures curiosity through joyful play-way and Montessori-inspired activities. Children develop early English phonics, number sense, fine motor skills, and confident social manners in a warm, caring classroom setting.
+                        </p>
+                        <div class="pt-2">
+                            <button id="wing-cta" onclick="openAdmissionModal('Pre-Primary (Nursery - UKG)')" class="px-6 py-3 rounded-xl bg-emeraldbrand-900 hover:bg-emeraldbrand-800 text-white font-semibold text-sm transition inline-flex items-center gap-2">
+                                <span>Enquire for Pre-Primary Admission</span>
+                                <i data-lucide="arrow-right" class="w-4 h-4 text-gold-400"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-5 bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                        <h4 class="font-bold text-emeraldbrand-950 text-sm uppercase tracking-wider mb-4 flex items-center gap-2">
+                            <i data-lucide="check-square" class="w-4 h-4 text-gold-600"></i>
+                            <span>Key Curriculum Highlights</span>
+                        </h4>
+                        <ul id="wing-highlights" class="space-y-3 text-sm text-slate-700">
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700 shrink-0 mt-0.5"></i><span>Interactive English phonics &amp; storytelling</span></li>
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700 shrink-0 mt-0.5"></i><span>Activity-based numeracy &amp; pattern games</span></li>
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700 shrink-0 mt-0.5"></i><span>Art, music, rhythm &amp; motor-skill play</span></li>
+                            <li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700 shrink-0 mt-0.5"></i><span>Caring female teachers &amp; child-safe furniture</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Campus Facilities Showcase (Zero External Images) -->
+    <section id="facilities" class="py-16 sm:py-24 bg-ivory border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+                <div>
+                    <span class="text-gold-600 font-bold text-xs uppercase tracking-widest">Campus Infrastructure</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-emeraldbrand-950 mt-2">World-Class Student Facilities</h2>
+                </div>
+                <p class="text-slate-600 text-sm max-w-md">
+                    Tap any facility card to explore how our SH-43 Bisauli campus supports modern academic and physical excellence.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-12 gap-8 items-start">
+                <!-- Facility Selector List -->
+                <div class="lg:col-span-5 flex flex-col gap-3">
+                    <button data-fac="smart" class="fac-btn active text-left p-4 sm:p-5 rounded-2xl border-2 border-emeraldbrand-900 bg-emeraldbrand-900 text-white shadow-md transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-gold-500 text-emeraldbrand-950 flex items-center justify-center shrink-0">
+                            <i data-lucide="monitor-play" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Smart Digital Classrooms</h4>
+                            <p class="text-xs text-slate-300 mt-0.5">Audio-visual interactive learning &amp; airy rooms</p>
+                        </div>
+                    </button>
+
+                    <button data-fac="labs" class="fac-btn text-left p-4 sm:p-5 rounded-2xl border border-slate-200 bg-white hover:border-emeraldbrand-900/50 text-emeraldbrand-950 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-emeraldbrand-900/10 text-emeraldbrand-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="flask-conical" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Science &amp; Computer Labs</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">Practical experimentation &amp; modern IT workstations</p>
+                        </div>
+                    </button>
+
+                    <button data-fac="library" class="fac-btn text-left p-4 sm:p-5 rounded-2xl border border-slate-200 bg-white hover:border-emeraldbrand-900/50 text-emeraldbrand-950 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-emeraldbrand-900/10 text-emeraldbrand-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="library" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Convent Library &amp; Reading Hall</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">Rich collection of reference books, classics &amp; journals</p>
+                        </div>
+                    </button>
+
+                    <button data-fac="transport" class="fac-btn text-left p-4 sm:p-5 rounded-2xl border border-slate-200 bg-white hover:border-emeraldbrand-900/50 text-emeraldbrand-950 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-emeraldbrand-900/10 text-emeraldbrand-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="bus" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">GPS Bus Fleet (SH-43 Routes)</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">Safe pickup across Chandausi–Badaun Road &amp; Bisauli</p>
+                        </div>
+                    </button>
+
+                    <button data-fac="sports" class="fac-btn text-left p-4 sm:p-5 rounded-2xl border border-slate-200 bg-white hover:border-emeraldbrand-900/50 text-emeraldbrand-950 transition flex items-center gap-4">
+                        <div class="w-11 h-11 rounded-xl bg-emeraldbrand-900/10 text-emeraldbrand-900 flex items-center justify-center shrink-0">
+                            <i data-lucide="medal" class="w-5 h-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-base">Sports Ground &amp; Athletics</h4>
+                            <p class="text-xs text-slate-600 mt-0.5">Outdoor athletics, team games, yoga &amp; physical fitness</p>
+                        </div>
+                    </button>
+                </div>
+
+                <!-- Dynamic Facility Showcase Panel (CSS Gradient + Custom Vector Artwork) -->
+                <div class="lg:col-span-7 bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-lg">
+                    <div id="fac-banner" class="relative p-8 sm:p-10 bg-gradient-to-br from-emeraldbrand-950 via-emeraldbrand-900 to-emeraldbrand-800 text-white overflow-hidden">
+                        <div class="absolute right-6 bottom-4 opacity-15 pointer-events-none" id="fac-bg-icon">
+                            <i data-lucide="monitor-play" class="w-36 h-36 text-gold-400"></i>
+                        </div>
+                        <span id="fac-badge" class="inline-block px-3.5 py-1 rounded-full bg-gold-500 text-emeraldbrand-950 text-xs font-bold uppercase tracking-wider">
+                            Digital Pedagogy
+                        </span>
+                        <h3 id="fac-title" class="font-serif text-2xl sm:text-3xl font-bold mt-4 text-white">
+                            Smart Digital Classrooms
+                        </h3>
+                        <p id="fac-subtitle" class="text-gold-300 text-xs sm:text-sm font-medium mt-1">
+                            Interactive Visual Learning for Deeper Concept Clarity
+                        </p>
+                    </div>
+
+                    <div class="p-6 sm:p-8">
+                        <p id="fac-desc" class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                            Every classroom at SRBM Convent School is designed for bright natural lighting, cross-ventilation, and interactive digital teaching. Complex Science, Mathematics, and English concepts come alive through visual modules that keep students engaged.
+                        </p>
+                        <ul id="fac-points" class="grid sm:grid-cols-2 gap-3 mt-6 text-xs sm:text-sm font-medium text-emeraldbrand-950">
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700"></i> Interactive audio-visual modules</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700"></i> Ergonomic &amp; spacious seating</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700"></i> RO purified water &amp; power backup</li>
+                            <li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700"></i> 24x7 campus CCTV monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Fee & Admission Enquiry Calculator/Form -->
+    <section id="fee-calculator" class="py-16 sm:py-24 convent-hero-bg text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-10 items-center">
+
+                <!-- Left Guide & Live Estimate Breakdown -->
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-gold-400 font-bold text-xs uppercase tracking-widest">Parent Fee &amp; Admission Desk</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold leading-tight">
+                        Interactive Fee Estimator &amp; Direct WhatsApp Admission Enquiry
+                    </h2>
+                    <p class="text-slate-200 text-sm sm:text-base leading-relaxed">
+                        Select your child's class and transport route preference to preview an indicative fee guide and send a structured admission enquiry directly to <strong>SRBM Convent School (+91 96272 02070)</strong>.
+                    </p>
+
+                    <!-- Live Indicative Fee Preview Box -->
+                    <div class="bg-emeraldbrand-950/80 border border-gold-500/40 rounded-2xl p-5 sm:p-6 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs uppercase tracking-wider font-bold text-gold-400">Selected Admission Profile</span>
+                            <span class="text-xs text-emerald-300 font-semibold">Session 2026–27</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 pt-2 border-t border-emeraldbrand-800 text-sm">
+                            <div>
+                                <p class="text-xs text-slate-400">Wing / Class</p>
+                                <p id="preview-class" class="font-bold text-white mt-0.5">Pre-Primary (Nursery – UKG)</p>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-400">Transport Option</p>
+                                <p id="preview-bus" class="font-bold text-white mt-0.5">Yes (Bisauli / SH-43 Route)</p>
+                            </div>
+                        </div>
+                        <div class="pt-3 border-t border-emeraldbrand-800 flex items-center justify-between">
+                            <span class="text-xs text-slate-300">Official Prospectus &amp; Exact Fee Card:</span>
+                            <span class="text-xs font-bold text-gold-300">Delivered via WhatsApp / Office</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4 text-xs text-slate-300">
+                        <span class="flex items-center gap-1.5"><i data-lucide="file-check" class="w-4 h-4 text-gold-400"></i> Birth Certificate &amp; Aadhaar Required</span>
+                        <span class="flex items-center gap-1.5"><i data-lucide="award" class="w-4 h-4 text-gold-400"></i> Sibling Fee Concession Available</span>
+                    </div>
+                </div>
+
+                <!-- Right WhatsApp Enquiry Form -->
+                <div class="lg:col-span-6">
+                    <div class="bg-white text-emeraldbrand-950 rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-gold-500/60">
+                        <h3 class="font-serif text-2xl font-bold text-emeraldbrand-950">Send Admission Enquiry</h3>
+                        <p class="text-xs sm:text-sm text-slate-600 mt-1">Fill in the details below—your enquiry will open formatted in WhatsApp to our admission desk.</p>
+
+                        <form id="whatsapp-enquiry-form" class="mt-6 space-y-4">
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Student Full Name *</label>
+                                    <input type="text" id="enq-student" required placeholder="e.g. Ananya Verma" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 focus:ring-2 focus:ring-emeraldbrand-900/20 outline-none text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Parent Name *</label>
+                                    <input type="text" id="enq-parent" required placeholder="e.g. Rajesh Verma" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 focus:ring-2 focus:ring-emeraldbrand-900/20 outline-none text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Class Seeking Admission *</label>
+                                    <select id="enq-class" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 focus:ring-2 focus:ring-emeraldbrand-900/20 outline-none text-sm bg-white">
+                                        <option value="Pre-Primary (Nursery – UKG)">Pre-Primary (Nursery – UKG)</option>
+                                        <option value="Primary Wing (Classes I – V)">Primary Wing (Classes I – V)</option>
+                                        <option value="Middle Wing (Classes VI – VIII)">Middle Wing (Classes VI – VIII)</option>
+                                        <option value="Senior Wing (Classes IX – XII)">Senior Wing (Classes IX – XII)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">School Bus Transport *</label>
+                                    <select id="enq-bus" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 focus:ring-2 focus:ring-emeraldbrand-900/20 outline-none text-sm bg-white">
+                                        <option value="Yes (Bisauli / SH-43 Route)">Yes (Bisauli / SH-43 Route)</option>
+                                        <option value="Yes (Chandausi / Badaun Side)">Yes (Chandausi / Badaun Side)</option>
+                                        <option value="No (Self Drop)">No (Self Drop)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1.5">Village / Locality &amp; Contact Number *</label>
+                                <input type="text" id="enq-locality" required placeholder="e.g. Bisauli Town, 98765 XXXXX" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 focus:ring-2 focus:ring-emeraldbrand-900/20 outline-none text-sm">
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-emeraldbrand-900 hover:bg-emeraldbrand-800 text-white font-bold text-sm sm:text-base shadow-lg transition flex items-center justify-center gap-2 border border-gold-500/40">
+                                <i data-lucide="message-circle" class="w-5 h-5 text-emerald-400"></i>
+                                <span>Send Enquiry on WhatsApp (+91 96272 02070)</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="py-16 sm:py-24 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-10 items-stretch">
+
+                <!-- Contact Info Card -->
+                <div class="lg:col-span-5 bg-emeraldbrand-950 text-white rounded-3xl p-8 flex flex-col justify-between shadow-xl border border-gold-500/30">
+                    <div>
+                        <span class="text-gold-400 font-bold text-xs uppercase tracking-widest">Reach Our Campus</span>
+                        <h2 class="font-serif text-3xl font-bold mt-2">SRBM Convent School</h2>
+                        <p class="text-slate-300 text-sm mt-2">We welcome parents and guardians to visit our SH-43 campus during working hours for admission counseling and a guided school tour.</p>
+
+                        <div class="space-y-5 mt-8">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 border border-gold-500/30 text-gold-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-300">Campus Address</h4>
+                                    <p class="text-sm text-slate-200 mt-0.5">SH-43, Chandausi–Badaun Road, Bisauli, Uttar Pradesh 243720</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 border border-gold-500/30 text-gold-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-300">Phone &amp; Admission Helpline</h4>
+                                    <a href="tel:+919627202070" class="text-base font-bold text-white hover:text-gold-400 transition mt-0.5 block">096272 02070</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 border border-gold-500/30 text-gold-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="clock" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-sm text-gold-300">School &amp; Office Timings</h4>
+                                    <p class="text-sm text-slate-200 mt-0.5">Monday – Saturday: 8:00 AM – 2:30 PM<br><span class="text-xs text-slate-400">Sunday: Closed</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-emeraldbrand-800 grid grid-cols-2 gap-3">
+                        <a href="tel:+919627202070" class="py-3 px-4 rounded-xl bg-gold-500 hover:bg-gold-400 text-emeraldbrand-950 font-bold text-sm text-center transition flex items-center justify-center gap-2">
+                            <i data-lucide="phone-call" class="w-4 h-4"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/919627202070?text=Hello%20SRBM%20Convent%20School%20Bisauli%2C%20I%20would%20like%20to%20enquire%20about%20admissions." target="_blank" rel="noopener" class="py-3 px-4 rounded-xl bg-emeraldbrand-800 hover:bg-emeraldbrand-700 text-white font-semibold text-sm text-center border border-gold-400/30 transition flex items-center justify-center gap-2">
+                            <i data-lucide="message-circle" class="w-4 h-4 text-emerald-300"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map & Highway Directions Panel -->
+                <div class="lg:col-span-7 rounded-3xl overflow-hidden shadow-lg border border-slate-200 bg-ivory flex flex-col">
+                    <iframe
+                        title="SRBM Convent School Bisauli Map"
+                        src="https://www.google.com/maps?q=SRBM+Convent+School+SH-43+Chandausi+Badaun+Road+Bisauli+243720&output=embed"
+                        class="w-full h-full min-h-[340px] border-0 flex-1"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <div class="p-4 bg-ivory border-t border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-slate-700">
+                        <span class="font-semibold">📍 Landmark: Located directly on SH-43 (Chandausi–Badaun State Highway), Bisauli</span>
+                        <a href="https://maps.google.com/?q=SRBM+Convent+School+Chandausi+Badaun+Road+Bisauli+243720" target="_blank" rel="noopener" class="text-emeraldbrand-900 font-bold underline hover:text-gold-600 shrink-0">Open in Google Maps →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-emeraldbrand-950 text-slate-400 pt-14 pb-24 sm:pb-12 border-t border-emeraldbrand-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-emeraldbrand-900">
+                <div class="lg:col-span-2">
+                    <h3 class="font-serif text-xl font-bold text-white">SRBM CONVENT SCHOOL, BISAULI</h3>
+                    <p class="text-xs uppercase tracking-widest text-gold-400 mt-1">Truth • Discipline • Academic Excellence</p>
+                    <p class="text-sm text-slate-400 mt-4 max-w-md leading-relaxed">
+                        Empowering young learners with English-medium academic rigor, moral values, and modern infrastructure at SH-43, Chandausi–Badaun Road, Bisauli, Uttar Pradesh 243720.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Quick Links</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li><a href="#about" class="hover:text-gold-400 transition">About School</a></li>
+                        <li><a href="#notice-calendar" class="hover:text-gold-400 transition">Notice Board</a></li>
+                        <li><a href="#academics" class="hover:text-gold-400 transition">Academic Wings</a></li>
+                        <li><a href="#facilities" class="hover:text-gold-400 transition">Campus Facilities</a></li>
+                        <li><a href="#fee-calculator" class="hover:text-gold-400 transition">Admissions 2026–27</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Campus Office</h4>
+                    <ul class="space-y-2.5 text-sm">
+                        <li>SH-43, Chandausi–Badaun Road, Bisauli, U.P. 243720</li>
+                        <li>Phone: <a href="tel:+919627202070" class="text-gold-400 hover:underline">096272 02070</a></li>
+                        <li>Mon – Sat: 8:00 AM – 2:30 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row justify-between items-center text-xs gap-3">
+                <p>© 2026 SRBM Convent School, Bisauli. All Rights Reserved.</p>
+                <p class="text-slate-500">SH-43, Chandausi–Badaun Road, Bisauli, Uttar Pradesh 243720</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky Bottom Quick Bar -->
+    <div class="fixed bottom-0 inset-x-0 z-40 sm:hidden bg-emeraldbrand-950/95 backdrop-blur border-t border-gold-500/30 px-3 py-2.5 grid grid-cols-2 gap-2.5 shadow-2xl">
+        <a href="tel:+919627202070" class="py-2.5 rounded-xl bg-gold-500 text-emeraldbrand-950 font-bold text-xs flex items-center justify-center gap-1.5">
+            <i data-lucide="phone-call" class="w-4 h-4"></i> Call 096272 02070
+        </a>
+        <button onclick="openAdmissionModal()" class="py-2.5 rounded-xl bg-emerald-600 text-white font-bold text-xs flex items-center justify-center gap-1.5">
+            <i data-lucide="message-circle" class="w-4 h-4"></i> Apply Online
+        </button>
+    </div>
+
+    <!-- Apply Online Modal -->
+    <div id="admission-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-emeraldbrand-950/80 backdrop-blur-sm">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border-2 border-gold-500 relative">
+            <button onclick="closeAdmissionModal()" aria-label="Close Modal" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition">
+                <i data-lucide="x" class="w-5 h-5"></i>
+            </button>
+
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-10 h-10 rounded-xl bg-emeraldbrand-900 text-gold-400 flex items-center justify-center">
+                    <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                </div>
+                <div>
+                    <span class="text-[11px] font-bold uppercase tracking-wider text-gold-600">Session 2026–27</span>
+                    <h3 class="font-serif text-xl font-bold text-emeraldbrand-950">Online Admission Form</h3>
+                </div>
+            </div>
+
+            <form id="modal-admission-form" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Student's Full Name *</label>
+                    <input type="text" id="mod-student" required placeholder="Enter student name" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Parent / Guardian Name *</label>
+                    <input type="text" id="mod-parent" required placeholder="Enter parent name" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 outline-none text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Applying For Class *</label>
+                    <select id="mod-class" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 outline-none text-sm bg-white">
+                        <option value="Pre-Primary (Nursery - UKG)">Pre-Primary (Nursery - UKG)</option>
+                        <option value="Primary Wing (Classes I - V)">Primary Wing (Classes I - V)</option>
+                        <option value="Middle Wing (Classes VI - VIII)">Middle Wing (Classes VI - VIII)</option>
+                        <option value="Senior Wing (Classes IX - XII)">Senior Wing (Classes IX - XII)</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Village / Town Locality *</label>
+                    <input type="text" id="mod-address" required placeholder="e.g. Bisauli / Chandausi Road" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:border-emeraldbrand-900 outline-none text-sm">
+                </div>
+
+                <button type="submit" class="w-full py-3.5 rounded-xl bg-emeraldbrand-900 hover:bg-emeraldbrand-800 text-white font-bold text-sm shadow-lg transition flex items-center justify-center gap-2">
+                    <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+                    <span>Submit via WhatsApp (+91 96272 02070)</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Interactive JavaScript -->
+    <script>
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Hero Interactive Snapshot Switcher
+        const snapshots = [
+            {
+                title: "Prime SH-43 Highway Campus",
+                desc: "Spacious, pollution-free academic complex on Chandausi–Badaun Road with CCTV security & lush sports grounds."
+            },
+            {
+                title: "Structured School Timings",
+                desc: "Regular classes & administrative office operate Monday to Saturday from 8:00 AM to 2:30 PM."
+            },
+            {
+                title: "2026–27 Admissions Open",
+                desc: "Direct admission counseling & prospectus available at the school office or via WhatsApp on 096272 02070."
+            }
+        ];
+
+        document.querySelectorAll('.snap-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.snap-btn').forEach(b => {
+                    b.classList.remove('bg-emeraldbrand-900', 'text-gold-400', 'font-bold');
+                    b.classList.add('bg-slate-100', 'text-slate-700', 'font-semibold');
+                });
+                btn.classList.add('bg-emeraldbrand-900', 'text-gold-400', 'font-bold');
+                btn.classList.remove('bg-slate-100', 'text-slate-700', 'font-semibold');
+
+                const idx = parseInt(btn.getAttribute('data-snap'), 10);
+                document.getElementById('hero-snapshot-content').innerHTML = `
+                    <h3 class="font-serif text-lg font-bold text-emeraldbrand-950">${snapshots[idx].title}</h3>
+                    <p class="text-xs text-slate-600 mt-1">${snapshots[idx].desc}</p>
+                `;
+            });
+        });
+
+        // Notice Board Filter
+        document.querySelectorAll('.notice-filter').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.notice-filter').forEach(b => {
+                    b.classList.remove('active', 'bg-emeraldbrand-900', 'text-gold-400');
+                    b.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+                });
+                btn.classList.add('active', 'bg-emeraldbrand-900', 'text-gold-400');
+                btn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+
+                const filter = btn.getAttribute('data-filter');
+                document.querySelectorAll('.notice-item').forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.classList.remove('hidden');
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Academic Wings Interactive Tabs
+        const wingsData = {
+            preprimary: {
+                badge: "Early Childhood Foundation • Age 3+",
+                title: "Pre-Primary Wing (Nursery, LKG & UKG)",
+                desc: "Our Pre-Primary wing nurtures curiosity through joyful play-way and Montessori-inspired activities. Children develop early English phonics, number sense, fine motor skills, and confident social manners in a warm, caring classroom setting.",
+                ctaText: "Enquire for Pre-Primary Admission",
+                classVal: "Pre-Primary (Nursery - UKG)",
+                highlights: [
+                    "Interactive English phonics & storytelling",
+                    "Activity-based numeracy & pattern games",
+                    "Art, music, rhythm & motor-skill play",
+                    "Caring female teachers & child-safe furniture"
+                ]
+            },
+            primary: {
+                badge: "Core Literacy & Numeracy • Classes I – V",
+                title: "Primary Wing (Classes I to V)",
+                desc: "Focused on building rock-solid fundamentals in English grammar, creative writing, mental mathematics, environmental science, and computer literacy with continuous individual teacher guidance.",
+                ctaText: "Enquire for Primary Wing",
+                classVal: "Primary Wing (Classes I - V)",
+                highlights: [
+                    "Spoken English fluency & reading comprehension",
+                    "Conceptual Mathematics & logical puzzles",
+                    "Hands-on Environmental Studies projects",
+                    "Weekly computer & smart-board sessions"
+                ]
+            },
+            middle: {
+                badge: "Analytical & Lab Discovery • Classes VI – VIII",
+                title: "Middle Wing (Classes VI to VIII)",
+                desc: "Students transition to deeper subject mastery across Physics, Chemistry, Biology, Mathematics, Social Studies, and Information Technology, supported by laboratory practicals and public speaking.",
+                ctaText: "Enquire for Middle Wing",
+                classVal: "Middle Wing (Classes VI - VIII)",
+                highlights: [
+                    "Dedicated Science & Computer lab practicals",
+                    "Olympiad & scholarship exam preparation",
+                    "English debates, elocution & leadership clubs",
+                    "Structured periodic assessments & mentoring"
+                ]
+            },
+            senior: {
+                badge: "Board Excellence & Career Focus • Classes IX – XII",
+                title: "Senior Wing (Classes IX to XII)",
+                desc: "Rigorous academic preparation for board examinations alongside career guidance, practical laboratory mastery, and disciplined self-study habits for higher education success.",
+                ctaText: "Enquire for Senior Wing",
+                classVal: "Senior Wing (Classes IX - XII)",
+                highlights: [
+                    "Comprehensive board syllabus & mock tests",
+                    "Individual doubt-clearing & remedial support",
+                    "Career counseling & competitive readiness",
+                    "Disciplined convent academic environment"
+                ]
+            }
+        };
+
+        document.querySelectorAll('.wing-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.wing-tab').forEach(t => {
+                    t.classList.remove('active', 'bg-emeraldbrand-900', 'text-gold-400', 'shadow-md');
+                    t.classList.add('bg-ivory', 'text-emeraldbrand-950', 'border', 'border-slate-200');
+                });
+                tab.classList.add('active', 'bg-emeraldbrand-900', 'text-gold-400', 'shadow-md');
+                tab.classList.remove('bg-ivory', 'text-emeraldbrand-950', 'border', 'border-slate-200');
+
+                const w = wingsData[tab.getAttribute('data-wing')];
+                document.getElementById('wing-badge').textContent = w.badge;
+                document.getElementById('wing-title').textContent = w.title;
+                document.getElementById('wing-desc').textContent = w.desc;
+                const cta = document.getElementById('wing-cta');
+                cta.querySelector('span').textContent = w.ctaText;
+                cta.setAttribute('onclick', `openAdmissionModal('${w.classVal}')`);
+
+                document.getElementById('wing-highlights').innerHTML = w.highlights.map(item =>
+                    `<li class="flex items-start gap-2.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700 shrink-0 mt-0.5"></i><span>${item}</span></li>`
+                ).join('');
+                lucide.createIcons();
+            });
+        });
+
+        // Facilities Interactive Switcher
+        const facData = {
+            smart: {
+                badge: "Digital Pedagogy",
+                title: "Smart Digital Classrooms",
+                subtitle: "Interactive Visual Learning for Deeper Concept Clarity",
+                desc: "Every classroom at SRBM Convent School is designed for bright natural lighting, cross-ventilation, and interactive digital teaching. Complex Science, Mathematics, and English concepts come alive through visual modules that keep students engaged.",
+                icon: "monitor-play",
+                points: [
+                    "Interactive audio-visual modules",
+                    "Ergonomic & spacious seating",
+                    "RO purified water & power backup",
+                    "24x7 campus CCTV monitoring"
+                ]
+            },
+            labs: {
+                badge: "Experiential Learning",
+                title: "Science & Computer Labs",
+                subtitle: "Hands-On Practical Discovery & Digital Literacy",
+                desc: "Our well-equipped Science and Computer laboratories enable students to perform real experiments, learn coding fundamentals, and develop scientific curiosity under expert faculty supervision.",
+                icon: "flask-conical",
+                points: [
+                    "Modern computer systems & software",
+                    "Calibrated Physics, Chemistry & Bio apparatus",
+                    "Dedicated lab instructors",
+                    "Strict safety & hygiene protocols"
+                ]
+            },
+            library: {
+                badge: "Knowledge Sanctuary",
+                title: "Convent Library & Reading Hall",
+                subtitle: "Cultivating Lifelong Reading & Research Habits",
+                desc: "A quiet, well-stocked library housing English literature, encyclopedias, reference volumes, moral stories, and daily newspapers to strengthen vocabulary and general awareness.",
+                icon: "library",
+                points: [
+                    "Age-appropriate books for all classes",
+                    "Weekly scheduled library periods",
+                    "English & Hindi periodicals",
+                    "Peaceful study atmosphere"
+                ]
+            },
+            transport: {
+                badge: "Safe Highway & Town Commute",
+                title: "GPS Bus Fleet (SH-43 Routes)",
+                subtitle: "Reliable Doorstep Pickup Across Bisauli & Surrounding Areas",
+                desc: "Our fleet of yellow school buses operates safely along SH-43 (Chandausi–Badaun Road), Bisauli town colonies, and nearby villages with trained drivers and route attendants.",
+                icon: "bus",
+                points: [
+                    "GPS tracking & speed governance",
+                    "Experienced, verified bus drivers",
+                    "Coverage across Bisauli & SH-43 belt",
+                    "First-aid box in every school bus"
+                ]
+            },
+            sports: {
+                badge: "Physical Fitness & Teamwork",
+                title: "Sports Ground & Athletics",
+                subtitle: "Building Stamina, Sportsmanship & Team Spirit",
+                desc: "A spacious outdoor playground on campus supports athletics, cricket, football, kho-kho, badminton, morning PT, and yoga sessions to ensure healthy physical development.",
+                icon: "medal",
+                points: [
+                    "Expansive outdoor playfield",
+                    "Trained physical education coaches",
+                    "Annual Inter-House Sports Meet",
+                    "Morning yoga & wellness drills"
+                ]
+            }
+        };
+
+        document.querySelectorAll('.fac-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.fac-btn').forEach(b => {
+                    b.classList.remove('active', 'border-2', 'border-emeraldbrand-900', 'bg-emeraldbrand-900', 'text-white', 'shadow-md');
+                    b.classList.add('border', 'border-slate-200', 'bg-white', 'text-emeraldbrand-950');
+                    const iconWrap = b.querySelector('div');
+                    iconWrap.classList.remove('bg-gold-500', 'text-emeraldbrand-950');
+                    iconWrap.classList.add('bg-emeraldbrand-900/10', 'text-emeraldbrand-900');
+                    const sub = b.querySelector('p');
+                    sub.classList.remove('text-slate-300');
+                    sub.classList.add('text-slate-600');
+                });
+
+                btn.classList.add('active', 'border-2', 'border-emeraldbrand-900', 'bg-emeraldbrand-900', 'text-white', 'shadow-md');
+                btn.classList.remove('border', 'border-slate-200', 'bg-white', 'text-emeraldbrand-950');
+                const activeWrap = btn.querySelector('div');
+                activeWrap.classList.add('bg-gold-500', 'text-emeraldbrand-950');
+                activeWrap.classList.remove('bg-emeraldbrand-900/10', 'text-emeraldbrand-900');
+                const activeSub = btn.querySelector('p');
+                activeSub.classList.add('text-slate-300');
+                activeSub.classList.remove('text-slate-600');
+
+                const f = facData[btn.getAttribute('data-fac')];
+                document.getElementById('fac-badge').textContent = f.badge;
+                document.getElementById('fac-title').textContent = f.title;
+                document.getElementById('fac-subtitle').textContent = f.subtitle;
+                document.getElementById('fac-desc').textContent = f.desc;
+                document.getElementById('fac-bg-icon').innerHTML = `<i data-lucide="${f.icon}" class="w-36 h-36 text-gold-400"></i>`;
+                document.getElementById('fac-points').innerHTML = f.points.map(pt =>
+                    `<li class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 text-emeraldbrand-700"></i> ${pt}</li>`
+                ).join('');
+                lucide.createIcons();
+            });
+        });
+
+        // Live Fee Estimator Preview Sync
+        const enqClass = document.getElementById('enq-class');
+        const enqBus = document.getElementById('enq-bus');
+        enqClass.addEventListener('change', () => {
+            document.getElementById('preview-class').textContent = enqClass.value;
+        });
+        enqBus.addEventListener('change', () => {
+            document.getElementById('preview-bus').textContent = enqBus.value;
+        });
+
+        // Direct WhatsApp Form Submission (+919627202070)
+        document.getElementById('whatsapp-enquiry-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const student = document.getElementById('enq-student').value.trim();
+            const parent = document.getElementById('enq-parent').value.trim();
+            const cls = enqClass.value;
+            const bus = enqBus.value;
+            const locality = document.getElementById('enq-locality').value.trim();
+
+            const msg = `*Admission & Fee Enquiry - SRBM Convent School, Bisauli*%0A%0A` +
+                        `*Student Name:* ${encodeURIComponent(student)}%0A` +
+                        `*Parent Name:* ${encodeURIComponent(parent)}%0A` +
+                        `*Class Seeking:* ${encodeURIComponent(cls)}%0A` +
+                        `*Transport:* ${encodeURIComponent(bus)}%0A` +
+                        `*Locality / Phone:* ${encodeURIComponent(locality)}%0A%0A` +
+                        `Please share the 2026-27 fee structure and admission details.`;
+
+            window.open(`https://wa.me/919627202070?text=${msg}`, '_blank');
+        });
+
+        // Modal Open / Close & Submit
+        const modal = document.getElementById('admission-modal');
+        function openAdmissionModal(selectedClass = '') {
+            if (selectedClass) {
+                document.getElementById('mod-class').value = selectedClass;
+            }
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+        function closeAdmissionModal() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeAdmissionModal();
+        });
+
+        document.getElementById('modal-admission-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const student = document.getElementById('mod-student').value.trim();
+            const parent = document.getElementById('mod-parent').value.trim();
+            const cls = document.getElementById('mod-class').value;
+            const addr = document.getElementById('mod-address').value.trim();
+
+            const msg = `*Online Admission Application - SRBM Convent School, Bisauli*%0A%0A` +
+                        `*Student Name:* ${encodeURIComponent(student)}%0A` +
+                        `*Parent Name:* ${encodeURIComponent(parent)}%0A` +
+                        `*Class:* ${encodeURIComponent(cls)}%0A` +
+                        `*Locality:* ${encodeURIComponent(addr)}%0A%0A` +
+                        `Kindly guide us on prospectus and admission schedule.`;
+
+            window.open(`https://wa.me/919627202070?text=${msg}`, '_blank');
+            closeAdmissionModal();
+        });
+    </script>
+</body>
+</html>
